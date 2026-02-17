@@ -234,7 +234,7 @@
     border-radius: 10px;
   }
 
-  h1 {
+  h1, .b-heading, .b-pay-method__title, .b-pay-method__price {
     font-weight: 500;
   }
 
@@ -256,6 +256,7 @@
 
   .l-progress.state-step-3 {
     background-position-x: calc(70% + 112px);
+    background: #fff;
   }
 
   body {
