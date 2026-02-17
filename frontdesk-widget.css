@@ -271,6 +271,10 @@
     box-shadow: 0px 2px 3px rgba(0, 11, 48, 0.25) !important;
   }
 
+  .price-variants .s-btn--primary:hover {
+    opacity: 1;
+  }
+
   textarea {
     border-radius: 10px;
   }
