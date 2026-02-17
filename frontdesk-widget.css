@@ -133,6 +133,18 @@
     color: #fff;
     border-radius: 100px;
   }
+
+  .b-filter {
+    border-radius: 20px;
+  }
+
+  .b-result-item {
+    border-radius: 20px;
+  }
+
+  .b-result-item__images {
+    border-radius: 20px;
+  }
   
   /* ====== Mobile ====== */
   @media (max-width: 760px) {
