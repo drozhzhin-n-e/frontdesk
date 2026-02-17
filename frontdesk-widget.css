@@ -162,8 +162,21 @@
 
   .b-cart__auth {
     border-radius: 100px;
+    background: #506097;
   }
 
+  .b-tariff-description__title {
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .b-input-spinner input {
+    border-radius: 10px;
+  }
+
+  .select2-container .select2-selection {
+    border-radius: 10px;
+  }
 
   /* Если нужны разные иконки для 1-го и 2-го тарифа — раскомментируйте и подставьте URL:
   .b-result-item_tariff .b-discount:nth-of-type(1) { background-image: url("иконка_стандарт.png") !important; }
