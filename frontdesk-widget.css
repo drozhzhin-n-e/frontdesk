@@ -164,6 +164,32 @@
     border-radius: 100px;
   }
   
+  /* ====== Подмена иконок тарифов (Стандартный / Выгодный и т.д.) ====== */
+  .b-result-item_tariff .b-discount {
+    position: relative !important;
+    width: 80px !important;
+    height: 80px !important;
+    overflow: hidden !important;
+    background-image: url("https://drozhzhin-n-e.github.io/frontdesk/standard-tariff.png") !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+  }
+  .b-result-item_tariff .b-discount img {
+    opacity: 0 !important;
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    left: 0 !important;
+    top: 0 !important;
+    pointer-events: none !important;
+  }
+
+  /* Если нужны разные иконки для 1-го и 2-го тарифа — раскомментируйте и подставьте URL:
+  .b-result-item_tariff .b-discount:nth-of-type(1) { background-image: url("иконка_стандарт.png") !important; }
+  .b-result-item_tariff .b-discount:nth-of-type(2) { background-image: url("иконка_выгодный.png") !important; }
+  */
+
   /* ====== Mobile ====== */
   @media (max-width: 760px) {
     .b-start__field { min-width: 0; flex: 1 1 100%; }
