@@ -130,6 +130,8 @@
 
   .s-btn--primary, .b-result-item__view-more-btn {
     background: #506097;
+    color: #fff;
+    border-radius: 100px;
   }
   
   /* ====== Mobile ====== */
