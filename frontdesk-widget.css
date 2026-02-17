@@ -263,6 +263,14 @@
     background: #f7f8ff;
   }
 
+  .price-variants .s-btn--primary {
+    background-image: linear-gradient(0turn, rgba(244, 170, 135, 1) 0%, rgba(183, 82, 34, 1) 66%, rgba(244, 170, 135, 1) 75%);
+    border-style: none !important;
+    padding: 0 16px;
+    letter-spacing: 1.5px;
+    box-shadow: 0px 2px 3px rgba(0, 11, 48, 0.25) !important;
+  }
+
   /* Если нужны разные иконки для 1-го и 2-го тарифа — раскомментируйте и подставьте URL:
   .b-result-item_tariff .b-discount:nth-of-type(1) { background-image: url("иконка_стандарт.png") !important; }
   .b-result-item_tariff .b-discount:nth-of-type(2) { background-image: url("иконка_выгодный.png") !important; }
