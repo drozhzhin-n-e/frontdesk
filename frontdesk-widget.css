@@ -133,6 +133,10 @@
     color: #fff;
     border-radius: 100px;
   }
+  .s-btn--primary:hover, .b-result-item__view-more-btn:hover {
+    background: #506097;
+    opacity: 0.8;
+  }
 
   .b-filter {
     border-radius: 20px;
@@ -163,6 +167,11 @@
   .b-cart__auth {
     border-radius: 100px;
     background: #506097;
+  }
+
+  .b-cart__auth:hover {
+    background: #506097;
+    opacity: 0.8;
   }
 
   .b-tariff-description__title {
