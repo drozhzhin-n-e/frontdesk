@@ -119,7 +119,7 @@
     color: #ffffff !important;
     border: 20px solid transparent !important;
   
-    font-weight: 700 !important;
+    font-weight: 500;
     font-size: 14px !important;
   }
   
@@ -162,6 +162,7 @@
 
   .b-result-item__view-more-btn {
     height: 44px;
+    font-weight: 500;
   }
 
   .b-cart__auth {
@@ -185,6 +186,18 @@
 
   .select2-container .select2-selection {
     border-radius: 10px;
+  }
+
+  .price-variants .nights {
+    font-weight: 500;
+  }
+
+  .price-variants .price .amount {
+    font-weight: 500;
+  }
+
+  .b-filter__title {
+    font-weight: 500;
   }
 
   /* Если нужны разные иконки для 1-го и 2-го тарифа — раскомментируйте и подставьте URL:
