@@ -111,7 +111,8 @@
   .s-btn--primary,
   .b-start .s-btn--primary {
     height: 44px !important;
-    padding: 0 22px !important;
+    padding: 0;
+    width: auto;
     border-radius: 100px !important;
   
     background: #506097 !important;
@@ -125,6 +126,10 @@
   .s-btn--primary:hover,
   .b-start .s-btn--primary:hover {
     filter: brightness(0.92) !important;
+  }
+
+  .s-btn--primary, .b-result-item__view-more-btn {
+    background: #506097;
   }
   
   /* ====== Mobile ====== */
